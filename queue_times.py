@@ -19,9 +19,7 @@ LOCATION = {"lat": 33.8121, "lon": -117.9190}  # Anaheim, CA
 load_dotenv()
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
 if not API_KEY:
-    print(
-        "[WARNING] OPENWEATHER_API_KEY not found in environment. Weather data will fail."
-    )
+    print("[WARNING] OPENWEATHER_API_KEY not found in environment. Weather data will fail.")
 
 # ------------------------------------------------------------------------------
 # Helpers

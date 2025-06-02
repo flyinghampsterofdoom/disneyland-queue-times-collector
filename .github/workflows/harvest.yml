@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣  Check out the data branch
-      - name: Check out binary-db-updates
+      # 1️⃣  Check out the correct branch dynamically
+      - name: Check out current branch
         uses: actions/checkout@v3
         with:
           fetch-depth: 0

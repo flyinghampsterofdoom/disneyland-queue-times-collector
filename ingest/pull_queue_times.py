@@ -9,7 +9,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 app = typer.Typer(add_completion=False)
 URL = "https://queue-times.com/en-US/parks/{pid}/queue_times.json"
 PARK_IDS = {"dl": 1, "dca": 2}
-DATA = Path("data/queue")
+DATA = Path("data/raw")
 DATA.mkdir(parents=True, exist_ok=True)
 
 
