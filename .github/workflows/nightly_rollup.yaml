@@ -1,4 +1,4 @@
-name: Nightly Daily Roll-up
+name: Nightly Daily Roll-up (LEGACY)
 
 on:
   schedule:
